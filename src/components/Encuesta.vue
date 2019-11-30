@@ -49,15 +49,14 @@
 export default {
     data(){
         return {
-          pregunta: '¿Cuanto caminas durante el dia?',
           preguntas: [
             {
-              pregunta: "¿Cuanto caminas durante el día?",
-              respuestas: ["Menos de 1 Km", "Entre 1 Km y 2 Km", "Mas de 2 Km"]
+              pregunta: "¿Hay algo que limite a tomar acciones sustentables",
+              respuestas: ["Motivación", "Tiempo", "No sé qué y como hacerlo", "No lo quiero hacer"]
             },
             {
-              pregunta: "¿Cuanto reciclas?",
-              respuestas: ["Nada","Casi nada","De vez en cuando", "Siempre"]
+              pregunta: "¿Qué área eliges tú?",
+              respuestas: ["Energía","Residuos","Agua"]
             }
           ]
         }

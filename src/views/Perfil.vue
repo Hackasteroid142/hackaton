@@ -1,7 +1,11 @@
 <template>
     <div>
          <v-toolbar id="toolbar">
-      <v-toolbar-title>ImperfAction</v-toolbar-title>
+        <v-img
+            :src="require('../assets/remolinosinfondo.png')"
+            aspect-ratio="1"
+            id="imagen"
+        ></v-img>
 
       <v-spacer></v-spacer>
 
